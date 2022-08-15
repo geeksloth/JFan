@@ -1,0 +1,7 @@
+{
+    "FAN_OFF_TEMP": 35,
+    "FAN_MAX_TEMP": 50,
+    "FAN_MIN_SPEED": 100,
+    "UPDATE_INTERVAL": 5,
+    "MAX_PERF": 1
+}
