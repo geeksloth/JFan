@@ -1,5 +1,4 @@
-# JFAN
-**Automatic Json Fan Controller**
+# JFAN (Automatic Jetson Fan Controller)
 This is an extended version of [Pyrestone's jetson-fan-ctl](https://github.com/Pyrestone/jetson-fan-ctl). Adding some helpful configuration, e.g. FAN_MIN_SPEED, to PREVENT the fan stop working at a very low temperature (but still consume power without spinning).
 
 
