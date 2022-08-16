@@ -3,26 +3,24 @@ Control Jetson's Fan depends on temperature automatically.
 
 This is an extended version of [Pyrestone's jetson-fan-ctl](https://github.com/Pyrestone/jetson-fan-ctl). Adding some helpful configuration, e.g. FAN_MIN_SPEED, to PREVENT the fan stop working at a very low temperature (but still consume power without spinning).
 
-
-## Installation
-1. [Optional] Install **python3** if it is not installed.
+## Prerequisite
+This service requires ```Python3``` to run the scripts. If it is not installed, run this command first:
 ```bash
 sudo apt-get install python3-dev
 ```
-2. Clone this repo
+## Installation
+1. Clone this repo
 ```bash
 git clone https://github.com/geeksloth/jfan.git && cd jfan
 ```
-3. Install by running:
+2. Install by running:
 ```bash
 sudo ./install.sh
 ```
-4. [Optional] Check if the service running currectly:
+3. [Optional] Check if the service running currectly:
 ```bash
 sudo service jfan status
 ```
-
-
 ## Customization
 Modify the configuration file as your desire:
 ```bash
